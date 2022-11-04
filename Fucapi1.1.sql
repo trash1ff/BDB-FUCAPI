@@ -16,7 +16,7 @@ CREATE TABLE `aluno` (
 
 LOCK TABLES `aluno` WRITE;
 
-INSERT INTO `aluno` VALUES (1,'João Paulo','1234567890','2017-06-15','rua x casa 2000','teste@gmail.com','12345678'),(2,'Gabriel Silva','1234522890','2010-06-15','rua x casa 2000','teste@gmail.com','12345678'),(3,'Carlos Silva','1234522890','2010-06-15','rua x casa 2000','teste@gmail.com','12345678'),(4,'Joaquim Ruan Duarte','698.692.400-38','1982-06-15','rua 22 798','ruan@vizzacchi.com.br','fHjQIIRztn'),(5,'Ryan Martin Augusto Cavalcanti','315.181.490-57','1975-04-15','rua 23 546','ryan@formigueiromaquinas.com.br','NoaazhJ7BL'),(6,'Pedro Henrique Thomas Aparício','276.436.940-95','1962-06-03','Rua 58 250','pedro.henrique.aparicio@marramoncks.com.br','P4uAiMomMM');
+INSERT INTO `aluno` VALUES (1,'Joaquim Ruan Duarte','698.692.400-38','1982-06-15','rua 22 798','ruan@vizzacchi.com.br','fHjQIIRztn'),(2,'Ryan Martin Augusto Cavalcanti','315.181.490-57','1975-04-15','rua 23 546','ryan@formigueiromaquinas.com.br','NoaazhJ7BL'),(3,'Pedro Henrique Thomas Aparício','276.436.940-95','1962-06-03','Rua 58 250','pedro.henrique.aparicio@marramoncks.com.br','P4uAiMomMM');
 
 UNLOCK TABLES;
 
@@ -115,4 +115,3 @@ LOCK TABLES `turma_aluno` WRITE;
 INSERT INTO `turma_aluno` VALUES (44,1,1),(45,2,3),(46,3,2);
 
 UNLOCK TABLES;
-
